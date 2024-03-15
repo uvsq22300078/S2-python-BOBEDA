@@ -34,7 +34,7 @@ buttonCerle = tk.Button(root, text="cercle",command=cercle)
 buttonCarre = tk.Button(root, text="Carre",command=carre)
 buttonCroix = tk.Button(root, text="Croix",command=ligne)
 
-canva.grid(row=1,column=1)
+canva.grid(row=1,column=1,rowspan=3)
 buttonCouleur.grid(row=0,column=1)
 buttonCerle.grid(row=1,column=0)
 buttonCarre.grid(row =2, column=0)
